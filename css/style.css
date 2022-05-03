@@ -10,6 +10,29 @@
     display: flex;
 }
 
+.btn{
+    background-color: #0262f5;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    text-align: center;
+    width: auto;
+    
+}
+.big-cont {
+    width: 80%;
+    margin: 0 auto;
+}
+  
+.small-cont {
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
 /* HEADER */
 
 header{
@@ -21,12 +44,15 @@ header{
 }
   
 .header-col{
-    background-color: bisque;
+    /* background-color: bisque; */
+    background-color: white;
     height: 60px;
     width: 100%;
-    padding: 20px 20px 10px 20px;
+    padding: 10px 20px;
     align-items: center;
     position: fixed;
+    right: 0;
+    top: 0;
 }
 
 .header-left{
@@ -73,3 +99,51 @@ color: inherit;
 /* MAIN */
 
                     /* JUMBO */
+.jumbo{
+background-color: #b4d0e7;
+}
+
+.jumbo h1{
+    font-size: 60px;
+    font-weight: 800;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.testo{
+    border: 1px solid red;
+    font-size: 14px;
+    width: 30%;
+}
+
+
+.testo p{
+    font-size: 13px;
+    font-weight: 600;
+    padding-right: 5px;
+    padding-bottom: 20px;
+}
+
+.testo div{
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-size: 11px;
+    font-size: 600;
+}
+
+.testo span{
+    font-size: 35px;
+}
+
+.jumbo-col{
+    width: 100%;
+}
+
+
+.jumbo-col img{
+    border: 1px solid red;
+    width: 70%;
+    left: 0;
+    bottom: -40px;
+
+}
