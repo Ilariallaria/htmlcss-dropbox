@@ -101,17 +101,18 @@ color: inherit;
                     /* JUMBO */
 .jumbo{
 background-color: #b4d0e7;
+height: 600px;
 }
 
 .jumbo h1{
-    font-size: 60px;
+    font-size: 58px;
     font-weight: 800;
     padding-top: 60px;
     padding-bottom: 40px;
 }
 
 .testo{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 14px;
     width: 30%;
 }
@@ -139,9 +140,9 @@ background-color: #b4d0e7;
     width: 100%;
 }
 
-
 .jumbo-col img{
-    border: 1px solid red;
+    padding-left: 50px;
+    /* border: 1px solid red; */
     width: 70%;
     left: 0;
     bottom: -40px;
