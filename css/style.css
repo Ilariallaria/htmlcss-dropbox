@@ -52,6 +52,19 @@ h2{
     clear: both;
 }
 
+.central{
+    padding: 0 15px 0 15px;
+}
+
+.sx{
+    padding:0 30px 0 0;
+}
+
+.dx{
+    padding: 0 0 0 30px;
+}
+
+
 
 /* HEADER */
 
@@ -204,7 +217,7 @@ height: 600px;
     border-radius: 50%;
 }
 
-/* inizio tabella */
+/* inizio tabella 1*/
 
 .plans{
     flex-wrap: wrap;
@@ -284,7 +297,9 @@ h3{
 }
 
 .subscription hr{
-    color: lightgrey;
+    background-color: #eaeaeb;
+    color: #eaeaeb;
+    border-style: solid;
     border-style: solid;
     width: 50px;
     margin-bottom: 40px;
@@ -314,10 +329,10 @@ h3{
     color: #0262f5;
     font-weight: 800;
 }
-/* fine tabella */
+/* fine tabella 1 */
 
 
-
+/* sezione contact */
 .contact-sx {
     float: left;
     width: 70%;
@@ -346,8 +361,9 @@ h3{
 .contact{
     margin-bottom: 130px;
 }
+/* fine sezione contact */
 
-
+/* sezione partner */
 .p-contact {
     float: left;
     width: calc(100% / 2);
@@ -373,3 +389,37 @@ h3{
     color: black;
     border: 1px solid;
 }
+
+.partner{
+margin-bottom: 100px;
+}
+
+/* fine sezione partner */
+
+
+/* tabella chioces */
+
+.choices{
+    flex-wrap: wrap;
+}
+
+.col{
+    width: calc(100% / 3);
+    padding: 0 10px;
+}
+
+.card
+{
+    padding-top: 50px;
+}
+
+
+.card h3{
+    padding: 20px 0;
+}
+
+.underline {
+    text-decoration: underline;
+  }
+
+/* fine tabella choices */
