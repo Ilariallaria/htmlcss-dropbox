@@ -37,6 +37,8 @@ img{
 
 p{
     font-size: 13px;
+    font-weight: 600;
+
 }
 
 h2{
@@ -116,7 +118,7 @@ color: inherit;
 
 /* MAIN */
 
-                    /* JUMBO */
+    /* JUMBO */
 .jumbo{
 background-color: #b4d0e7;
 height: 600px;
@@ -130,8 +132,6 @@ height: 600px;
 }
 
 .testo{
-    /* border: 1px solid red; */
-    /* font-size: 14px; */
     width: 30%;
 }
 
@@ -146,7 +146,6 @@ height: 600px;
     padding-top: 5px;
     padding-bottom: 20px;
     font-size: 11px;
-    /* font-size: 600; */
 }
 
 .testo span{
@@ -345,5 +344,32 @@ h3{
 }
 
 .contact{
-    margin-bottom: 30px;
+    margin-bottom: 130px;
+}
+
+
+.p-contact {
+    float: left;
+    width: calc(100% / 2);
+    padding-left: 50px;
+}
+  
+.p-contact h1 {
+    padding-top: 30px;
+  }
+  
+.p-contact p {
+    padding: 25px 0px;
+    line-height: 25px;
+}
+  
+.p-img{
+    float: left;
+    width: calc(100% / 2);
+}
+
+.p-contact button{
+    background-color: white;
+    color: black;
+    border: 1px solid;
 }
