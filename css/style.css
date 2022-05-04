@@ -34,13 +34,20 @@ img{
     width: 100%;
     display: block;
 }
- p{
+
+p{
     font-size: 13px;
 }
 
 h2{
     font-size: 30px;
     font-weight: 800;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
@@ -158,7 +165,7 @@ height: 600px;
     bottom: -40px;
 }
 
-/* inizio section business */
+/* inizio SECTION BUSINESS */
 
 .business{
     margin-top: 130px;
@@ -198,17 +205,16 @@ height: 600px;
     border-radius: 50%;
 }
 
+/* inizio tabella */
+
 .plans{
     flex-wrap: wrap;
     justify-content: space-between;
-
+    padding-bottom: 50px;
 }
 
 .subscription{
     width: calc(100% / 3);
-    /* padding: 0 5px 0 0; */
-
-    /* border: 1px solid red; */
 }
 
 .central{
@@ -241,7 +247,7 @@ height: 600px;
 
 }
 
-/* COMMON  IN 'OFFER' */
+        /* common in offer' */
 
 h3{
     font-size: 21px;
@@ -289,7 +295,7 @@ h3{
     padding-bottom: 50px;
 }
 
-#title {
+.title {
     font-size: 13px;
     font-weight: 800;
 }
@@ -309,5 +315,35 @@ h3{
     color: #0262f5;
     font-weight: 800;
 }
+/* fine tabella */
 
 
+
+.contact-sx {
+    float: left;
+    width: 70%;
+}
+  
+.contact-dx {
+    float: left;
+    width: 30%;
+}
+  
+.contact-sx h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+  
+.contact-sx p{
+    font-size: 11px;
+    padding: 20px 0;
+}
+
+.contact-dx button{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contact{
+    margin-bottom: 30px;
+}
