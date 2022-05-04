@@ -25,7 +25,7 @@
 }
   
 .small-cont {
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
 }
 
@@ -165,7 +165,7 @@ height: 600px;
 
 .payment{
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     list-style-type: none;
     align-items: center;
 
@@ -199,16 +199,41 @@ height: 600px;
 
 .plans{
     flex-wrap: wrap;
+    justify-content: space-between;
+
 }
 
-.col{
+.subscrition{
     width: calc(100% / 3);
-    padding: 10px 10px;
-    border: 1px solid red;
+    /* padding: 0 5px 0 0; */
 
+    /* border: 1px solid red; */
 }
-.card{
-    margin: 0 5px;
-    border: 1px solid blue;
 
+.central{
+    padding: 0 15px 0 15px;
+}
+
+.sx{
+    padding:0 30px 0 0;
+}
+
+.dx{
+    padding: 0 0 0 30px;
+}
+
+.client{
+    border: 1px solid blue;  
+    border-bottom: 0;
+    font-size: 13px;
+    padding: 8px 10px 8px 0;
+    text-align: center;
+    width: 100%;
+    padding: 10px 5px;
+}
+
+.offer{
+    border: 1px solid blue;
+    text-align: center;
+    padding: 10px 15px;
 }
