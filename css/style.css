@@ -17,6 +17,7 @@
     border: none;
     text-align: center;
     width: auto;
+    font-size: 12px;
     
 }
 .big-cont {
@@ -138,7 +139,7 @@ height: 600px;
     padding-top: 5px;
     padding-bottom: 20px;
     font-size: 11px;
-    font-size: 600;
+    /* font-size: 600; */
 }
 
 .testo span{
@@ -203,7 +204,7 @@ height: 600px;
 
 }
 
-.subscrition{
+.subscription{
     width: calc(100% / 3);
     /* padding: 0 5px 0 0; */
 
@@ -223,7 +224,7 @@ height: 600px;
 }
 
 .client{
-    border: 1px solid blue;  
+    border: 1px solid lightgray;  
     border-bottom: 0;
     font-size: 13px;
     padding: 8px 10px 8px 0;
@@ -233,7 +234,80 @@ height: 600px;
 }
 
 .offer{
-    border: 1px solid blue;
-    text-align: center;
+    border: 1px solid lightgray;
+    text-align: left;
     padding: 10px 15px;
+    font-size: 11px;
+
 }
+
+/* COMMON  IN 'OFFER' */
+
+h3{
+    font-size: 21px;
+    font-weight: 800;}
+
+.price{
+    font-weight: 800;
+    padding-top: 20px;
+    padding-bottom: 13px;
+}
+
+.duration{
+    color: gray;
+}
+
+.user{
+    padding-top: 40px;
+}
+
+.archiving{
+    padding: 20px 0px;
+}
+
+.functions{
+    padding-bottom: 40px;
+}
+
+.buy{
+    padding: 30px 0;
+}
+
+.buy a{
+    text-decoration: underline;
+    color: #0262f5;
+}
+
+.subscription hr{
+    color: lightgrey;
+    border-style: solid;
+    width: 50px;
+    margin-bottom: 40px;
+}
+
+.details{
+    padding-bottom: 50px;
+}
+
+#title {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.offer ul {
+    padding-top: 20px;
+  }
+  
+.offer li {
+    list-style-type: none;
+    padding: 8px 0px;
+  }
+  
+.offer li::before {
+    content: '\2714';
+    padding-right: 10px;
+    color: #0262f5;
+    font-weight: 800;
+}
+
+
