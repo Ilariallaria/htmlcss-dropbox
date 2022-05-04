@@ -165,7 +165,7 @@ height: 600px;
 
 .payment{
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     list-style-type: none;
     align-items: center;
 
@@ -188,7 +188,8 @@ height: 600px;
     border-radius: 50%;
 }
 .light-circle{
-    border-color: lightgray;    border-style: solid;
+    border-color: lightgray;
+    border-style: solid;
     border-width: 2px;
     display: inline-block;
     width: 15px;
@@ -196,3 +197,18 @@ height: 600px;
     border-radius: 50%;
 }
 
+.plans{
+    flex-wrap: wrap;
+}
+
+.col{
+    width: calc(100% / 3);
+    padding: 10px 10px;
+    border: 1px solid red;
+
+}
+.card{
+    margin: 0 5px;
+    border: 1px solid blue;
+
+}
