@@ -64,6 +64,13 @@ h2{
     padding: 0 0 0 30px;
 }
 
+hr{
+    background-color: #eaeaeb;
+    color: #eaeaeb;
+    border-style: solid;
+    width: 50px;
+}
+
 
 
 /* HEADER */
@@ -227,10 +234,12 @@ height: 600px;
 
 .subscription{
     width: calc(100% / 3);
+
 }
 
 .central{
     padding: 0 15px 0 15px;
+
 }
 
 .sx{
@@ -256,6 +265,7 @@ height: 600px;
     text-align: left;
     padding: 10px 15px;
     font-size: 11px;
+    height: 100%;
 
 }
 
@@ -297,11 +307,6 @@ h3{
 }
 
 .subscription hr{
-    background-color: #eaeaeb;
-    color: #eaeaeb;
-    border-style: solid;
-    border-style: solid;
-    width: 50px;
     margin-bottom: 40px;
 }
 
@@ -370,9 +375,9 @@ h3{
     padding-left: 50px;
 }
   
-.p-contact h1 {
+.p-contact h3 {
     padding-top: 30px;
-  }
+}
   
 .p-contact p {
     padding: 25px 0px;
@@ -432,34 +437,110 @@ margin-bottom: 100px;
 
   }
   .all-brands a{
-    padding: 0 0;
     color: #0262f5;
     text-decoration: underline;
     font-size: 12px;
   }
 
-.brands{
+  .brands{
     height: 400px;
-    background-color: lightgreen;
+    padding-top: 20px;
 
 }
 
 .b-logos{
     width: 400px;
-    background-color: lightyellow;
     flex-wrap: wrap;
     flex-shrink: 0;
 }
 
 .b-text{
-    background-color: lightpink;
     flex-grow: 1;
+    height: 400px;
+    background-color: #f5f5f5;
+    padding: 40px;
+
 }
+
+.b-text img{
+    width: 25%;
+    height: auto;
+}
+ 
+  
+.b-text p {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.b-text span{
+font-size: 13px;
+}
+
+.b-text hr{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .logo-box{
     width: 200px;
     height: 200px;
-    border: 1px solid red;
     justify-content: center;
     align-items: center;
 }
+
+.logo-box img{
+    width: 60%;
+    height: auto;
+    filter: invert(1);
+}
+
+.lightgreen {
+    background-color: #a2d39b;
+}
+  
+.bordeaux {
+    background-color: #61082b;
+}
+  
+.azzurro {
+    background-color: #0093ce;
+}
+  
+.rosso {
+    background-color: #ff1c1c;
+}
+  
+.rosso-scuro {
+    background-color: #d5001f;
+}
+  
+.celeste {
+    background-color: #b4d0e7;
+}
+  
+.blue {
+    background-color: #0d2481;
+}
+  
+.yellow {
+    background-color: #ffd830;
+}
+
