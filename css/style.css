@@ -544,17 +544,47 @@ font-size: 13px;
 
 .trial-sx h2{
     color: #61082b;
-
 }
   
 .trial-dx button{
     width: 30%;
     background-color: white;
     color: black;
-
 }
 
 .trail-dx {
     float: left;
     width: 30%;
 }
+
+/* inizio SECTION FAQ */
+
+.faq hr{
+
+    background-color: #eaeaeb;
+    color: #eaeaeb;
+    border-style: solid;
+    width: 100%;
+    
+}
+.faq-tab{
+    padding-top: 20px;
+
+}
+.faq-sx {
+    float: left;
+    width: 95%;
+    padding-right: 150px;
+    padding-bottom: 20px;
+}
+ .faq h2{
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.faq-dx {
+    float: left;
+    width: 5%;
+    padding-bottom: 20px;
+}
+/* fine SECTION FAQ */
