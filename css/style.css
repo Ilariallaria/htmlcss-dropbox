@@ -121,9 +121,11 @@ color: inherit;
 .header-right li, a{
     list-style: none;
     text-decoration: none;
-    padding: 0 10px;
+    padding-right: 0 0px;
     color: inherit;
     }
+    
+
     
 .header-right button{
     background-color: #0262f5;
@@ -136,9 +138,9 @@ color: inherit;
 }
 /* fine HEADER */
 
-/* MAIN */
+            /* MAIN */
 
-    /* JUMBO */
+/* JUMBO */
 .jumbo{
 background-color: #b4d0e7;
 height: 600px;
@@ -183,6 +185,7 @@ height: 600px;
     left: 0;
     bottom: -40px;
 }
+/* fine JUMBO */
 
 /* inizio SECTION BUSINESS */
 
@@ -224,7 +227,7 @@ height: 600px;
     border-radius: 50%;
 }
 
-/* inizio tabella 1*/
+/* inizio tabella Plans*/
 
 .plans{
     flex-wrap: wrap;
@@ -268,8 +271,6 @@ height: 600px;
     height: 100%;
 
 }
-
-        /* common in offer' */
 
 h3{
     font-size: 21px;
@@ -334,7 +335,7 @@ h3{
     color: #0262f5;
     font-weight: 800;
 }
-/* fine tabella 1 */
+/* fine tabella Plans */
 
 
 /* sezione contact */
@@ -368,7 +369,9 @@ h3{
 }
 /* fine sezione contact */
 
-/* sezione partner */
+/* fine SECTION BUSINESS */
+
+/* SECTION PARTNER */
 .p-contact {
     float: left;
     width: calc(100% / 2);
@@ -399,10 +402,10 @@ h3{
 margin-bottom: 100px;
 }
 
-/* fine sezione partner */
+/* fine SECTION PARTNER */
 
 
-/* tabella chioces */
+/* SECTION CHOICES */
 
 .choices{
     flex-wrap: wrap;
@@ -427,9 +430,9 @@ margin-bottom: 100px;
     text-decoration: underline;
   }
 
-/* fine tabella choices */
+/* fine SECTION CHOICES */
   
-/* BRANDS */
+/* SECTION BRANDS */
 
 .all-brands h2{
     margin-top: 120px;
@@ -525,9 +528,9 @@ font-size: 13px;
 .yellow {
     background-color: #ffd830;
 }
-/* fine section BRANDS */
+/* fine SECTION BRANDS */
 
-
+/* SECTION TRIAL */
 .trial{
     background-color: #b4d0e7;
 }
@@ -556,6 +559,8 @@ font-size: 13px;
     float: left;
     width: 30%;
 }
+
+/* fine SECTION TRIAL */
 
 /* inizio SECTION FAQ */
 
@@ -587,4 +592,62 @@ font-size: 13px;
     width: 5%;
     padding-bottom: 20px;
 }
+
+.faq-padding{
+    margin-bottom: 100px;
+}
 /* fine SECTION FAQ */
+
+                /* FINE MAIN */
+
+
+/* FOOTER */
+
+footer{
+    padding-top: 80px;
+    background-color: black;
+}
+
+.f-menu{
+    width: 100%;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 22px;
+}
+
+.f-menu span{
+    color: white;
+    font-size: 16px;
+}
+
+.f-menu ul{
+    list-style: none;
+    padding-top: 20px;
+}
+
+.f-menu a{
+    text-decoration: none;
+    color: white;
+    padding: 0 0;
+}
+
+.f-top{
+    padding-bottom: 80px;
+}
+
+.f-bottom hr{
+    color: #444448;
+    border-style: solid;
+    width: 90px;
+}
+
+.f-box{
+    align-items: center;
+}
+
+.f-box{
+    padding: 20px 0;
+    font-size: 11px;
+    color: #444448;
+    text-align: center;
+}
