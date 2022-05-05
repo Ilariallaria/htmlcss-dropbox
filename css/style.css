@@ -481,24 +481,6 @@ font-size: 13px;
     margin-top: 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .logo-box{
     width: 200px;
     height: 200px;
@@ -543,4 +525,36 @@ font-size: 13px;
 .yellow {
     background-color: #ffd830;
 }
+/* fine section BRANDS */
 
+
+.trial{
+    background-color: #b4d0e7;
+}
+
+.trial-tab{
+    padding-top: 100px;
+    height: 300px;
+}
+.trial-sx {
+    float: left;
+    width: 70%;
+    padding-right: 150px;
+}
+
+.trial-sx h2{
+    color: #61082b;
+
+}
+  
+.trial-dx button{
+    width: 30%;
+    background-color: white;
+    color: black;
+
+}
+
+.trail-dx {
+    float: left;
+    width: 30%;
+}
