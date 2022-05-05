@@ -423,3 +423,43 @@ margin-bottom: 100px;
   }
 
 /* fine tabella choices */
+  
+/* BRANDS */
+
+.all-brands h2{
+    margin-top: 120px;
+    margin-bottom: 20px;
+
+  }
+  .all-brands a{
+    padding: 0 0;
+    color: #0262f5;
+    text-decoration: underline;
+    font-size: 12px;
+  }
+
+.brands{
+    height: 400px;
+    background-color: lightgreen;
+
+}
+
+.b-logos{
+    width: 400px;
+    background-color: lightyellow;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
+
+.b-text{
+    background-color: lightpink;
+    flex-grow: 1;
+}
+
+.logo-box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+}
